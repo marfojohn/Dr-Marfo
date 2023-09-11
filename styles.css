@@ -92,10 +92,8 @@ span{
   color: grey;
 }
 form{
-  width: 50%;
-  border: solid #2ecc71;
-  padding: 20 40px;
-  border-radius: 2%;
+  width: 100%;
+  padding-top: 0px;
 }
 .container{
   padding: 30px;
@@ -106,7 +104,8 @@ form{
   margin-top: 10px;
 }
 #g-mail{
-  padding: 15px 60px;
+  width: 100%;
+  padding: 15 60px;
 }
 .fa-whatsapp{
   margin-left: 0px;
@@ -135,6 +134,11 @@ form{
     width: 100%;
   }
 }
+@media (max-width: 991px){
+  .logo-picture{
+    width: 5%;
+  }
+}
 @media (max-width: 1115px){
   h3{
     font-size: 13px;
@@ -147,5 +151,21 @@ form{
   }
   .Ad-words{
     font-size: 10px;
+  }
+}
+@media (max-width: 500px){
+  #title{
+    padding: 0 10px;
+  }
+  .logo-picture{
+    width: 15%;
+  }
+}
+@media (max-width: 600px){
+  #title{
+    padding: 0 10px;
+  }
+  .logo-picture{
+    width: 13%;
   }
 }
