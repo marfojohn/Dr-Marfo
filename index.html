@@ -68,7 +68,7 @@
       <div class="row">
         <div class="col-lg-6 col-md-12 col-sm-12 text">
           <p>Hi, there!</p>
-          <h1 class="big-heading"><strong> I'm Dr<span> Farmer</span> JP Marfo</strong></h1>
+          <h1 class="big-heading"><strong> I'm <span class="input"></span> Marfo</strong></h1>
           <p>A Natural Health Practitioner</p>
           <p>I treat all kinds of illness and diseases with 100% African Medicinal Herb</p>
           <!-- icons link -->
@@ -99,5 +99,25 @@
       </div>
     </div>
   </section>
+  <!-- Load library from the CDN -->
+  <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+
+  <script>
+    // var typed = new Typed(".input", {
+    //   Strings: ["Dr","Farmer"],
+    //   typeSpeed: 120,
+    //   backSpeed: 110,
+    //   loop: true
+    // })
+    
+
+    var typed = new Typed('.input', {
+      strings: ['Dr', 'Farmer','JP'],
+      typeSpeed: 120,
+      backSpeed: 110,
+      loop: true
+    });
+  
+  </script>
 </body>
 </html>
